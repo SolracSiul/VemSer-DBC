@@ -29,6 +29,8 @@ header img{
 .container-text h1{
     text-align: center;
     margin:20px 0 20px 0;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.534);
 }
 .container-img{
     display: flex;
@@ -50,6 +52,8 @@ header img{
 .sec-adress h1{
     text-align: center;
     padding:40px 0 15px 0;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.534);
 }
 .sec-adress .mapa{
     text-align: center;
