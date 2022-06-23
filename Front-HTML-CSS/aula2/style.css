@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* para desktop max-width: 1200px;
+para mobile: max-width:380px;
+*/
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+header{
+    background-color: red;
+    color: rgba(0, 0, 0, 0.01);
+}

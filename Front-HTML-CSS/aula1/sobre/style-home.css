@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a, address, span{
+    color: white;
+}
+header{
+    background-color:  red;
+    display: flex;
+    align-items: center;
+    padding: 20px  40px;
+}
+header img{
+    border-radius: 100%;
+    padding: 5px;
+}
+.topo nav li, a{
+    display: inline;
+    text-align: center;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.container h1{
+    color: rgba(0, 0, 0, 0.641);
+    font-weight: normal;
+}
+.container, .text-content, h1{
+    text-align: center;
+    margin: 25px auto 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.text1{
+    margin-bottom: 40px;
+    text-align:justify;
+}
+.text2{
+    text-align: justify;
+}
+footer{
+    background-color: red;
+}
+footer nav ul li a{
+    margin: 30px 10px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+footer li{
+    padding-top:10px;
+}
+footer address{
+    margin: 0 10px;
+    padding: 20px;
+}

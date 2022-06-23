@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a, address, span{
+    color: white;
+}
+header{
+    background-color:  red;
+    display: flex;
+    align-items: center;
+    padding: 20px  40px;
+}
+header img{
+    border-radius: 100%;
+    padding: 5px;
+}
+.topo nav li, a{
+    display: inline;
+    text-align: center;
+    padding-left: 25px;
+    text-decoration: underline;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.container-text h1{
+    text-align: center;
+    margin:20px 0 20px 0;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+}
+.container-img img{
+    border: 1px solid rgba(0, 0, 0, 0.389);
+    border-radius: 10px;
+}
+.text{
+   background-color: rgb(72, 71, 71);
+   margin: 0 auto;
+   max-width: 1200px;
+   color: white;
+}
+.text p{
+    padding-top: 15px;
+}
+.sec-adress h1{
+    text-align: center;
+    padding:40px 0 15px 0;
+}
+.sec-adress .mapa{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+footer{
+    background-color: red;
+}
+footer nav ul li a{
+    margin: 30px 10px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+footer li{
+    padding-top:10px;
+}
+footer address{
+    margin: 0 10px;
+    padding: 20px;
+}
