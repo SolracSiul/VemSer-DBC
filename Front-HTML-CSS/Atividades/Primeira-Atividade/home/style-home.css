@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-a, address, span{
+a, address{
     color: white;
 }
 header{
@@ -36,15 +36,18 @@ header img{
     display: flex;
     justify-content: center;
 }
+.container-img span{
+    text-align: center;
+}
 .container-img img{
     border: 1px solid rgba(0, 0, 0, 0.389);
     border-radius: 10px;
 }
 .text{
    background-color: rgb(72, 71, 71);
-   margin: 0 auto;
-   max-width: 1200px;
    color: white;
+   width: auto;
+   text-align: justify;
 }
 .text p{
     padding-top: 15px;
@@ -59,7 +62,6 @@ header img{
     text-align: center;
     padding-bottom: 15px;
 }
-
 footer{
     background-color: red;
 }

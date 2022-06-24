@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+main h1{
+    text-align: center;
+    margin: 20px 0;
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+/* nav ul li{
+    display: flex;
+}
+e depois dale um: 
+li{
+padding: 10px;
+text-align: center;
+}
+ */
+ul{
+    display: flex;
+}
+li{
+    width: 80px;
+    text-align: center;
+}
+img{
+    max-width: 380px;
+}
+/* deixando as fotos lado a lado */
+.galery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1200px;
+}
+/* alinhando o texto abaixo das fotos */
+.galery p{
+    text-align: center;
+    margin-top: 10px;
+}
+.galery div{
+    margin: 10px;
+}
